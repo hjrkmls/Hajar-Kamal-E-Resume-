@@ -1,0 +1,474 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto'
+}
+
+a,a :hover{
+    text-decoration: none;
+}
+
+ul{
+    list-style: none;
+}
+
+.header{
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    background-image: url('background.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.header2{
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    background-image: url('profile.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.header3{
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    background-image: url('education.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.header4{
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    background-image: url('blank.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.header .navbar{
+    width: 100%;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    padding-top: 20px;
+}
+.header2 .navbar .logo a{ 
+     color: #fff;
+     font-size: 30px;
+     margin-left: 40px;
+}
+.header2 .menu{
+    flex: 1;
+    text-align: center;
+}
+.header2 .menu ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 8px 12px;
+    position: relative;
+}
+.header2 .menu ul li a{
+    color: #fff;
+    text-decoration: none;
+    font-size: 20px;
+}
+.header .navbar{
+    width: 100%;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    padding-top: 20px;
+}
+.header .navbar .logo a{ 
+     color: #fff;
+     font-size: 30px;
+     margin-left: 40px;
+}
+.header .menu{
+    flex: 1;
+    text-align: center;
+}
+.header .menu ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 8px 12px;
+    position: relative;
+}
+.header .menu ul li a{
+    color: #fff;
+    text-decoration: none;
+    font-size: 20px;
+}
+.header3 .menu{
+    flex: 1;
+    text-align: center;
+}
+.header3 .menu ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 8px 12px;
+    position: relative;
+}
+.header3 .menu ul li a{
+    color: #fff;
+    text-decoration: none;
+    font-size: 20px;
+}
+.header3 .navbar{
+    width: 100%;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    padding-top: 20px;
+}
+.header3 .navbar .logo a{ 
+     color: #fff;
+     font-size: 30px;
+     margin-left: 40px;
+}
+.header4 .menu{
+    flex: 1;
+    text-align: center;
+}
+.header4 .menu ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 8px 12px;
+    position: relative;
+}
+.header4 .menu ul li a{
+    color: #fff;
+    text-decoration: none;
+    font-size: 20px;
+}
+.header4 .navbar{
+    width: 100%;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    padding-top: 20px;
+}
+.header4 .navbar .logo a{ 
+     color: #fff;
+     font-size: 30px;
+     margin-left: 40px;
+}
+.header .contact-info{
+    margin-left: 50px;
+}
+.header .contact-info ul{
+    margin-left: 41px;
+}
+.header .contact-info ul li{
+    display: inline-block;
+}
+.header .contact-info ul li a{
+    color: #fff;
+    font-size: 15px;
+    transition: all 0.3s;
+}
+.header .contact-info ul li a:hover{
+    color: rgb(235, 155, 8);
+}
+.header .contact-info ul li a .sep{
+    margin: 0.28px;
+    opacity: 0.3;
+}
+.banner{
+    position: absolute;
+    top: 35%;
+    left: 0;
+    color: #fff;
+}
+
+.app-text{
+    padding-left: 300px
+}
+.app-text h3{
+    margin-top: 100px;
+    font-size: 30px;
+    color: #fff;
+    font-weight: 900;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+
+.app-text h1{
+    font-size: 75px;
+    position: relative;
+    color: #fff;
+    margin-top: 30px;
+    font-weight: 700;
+    line-height: 1.3;
+}
+
+.app-text h1 span{
+    color: #822A4A;
+}
+
+.app-text p{
+    font-size: 19px;
+    margin: 30px 30px 30px 0;
+    letter-spacing: 1px;
+    color: #fff;
+    padding-right: 250px;
+    line-height: 1.5;
+    letter-spacing: 3px;
+}
+.btn-group{
+    display: flex;
+    width: 100%;
+    position: relative;
+    margin-top: 20px;
+}
+
+.primary-btn:before{
+    content: '';
+    position: absolute;
+    width: 400px;
+    height: 1px;
+    top: 88%;
+    left: 0;
+}
+
+.play-btn{
+    display: flex;
+    align-items: center;
+    transition: all 0.3s;
+}
+
+.play-btn:hover .play-btn-inner i,
+.play-btn:hover span{
+    color: #c32865;
+    transition: all 0.5s;
+    border-color: #c32865;
+}
+
+.btn-group span{
+    font-size: 20px;
+    margin-left: 24px;
+    color: #fff;
+    cursor: pointer;
+}
+.play-btn-inner i{
+    color: #fff;    
+    font-size: 15px;
+    display: inline-flex;
+    width: 80px;
+    height: 80px;
+    padding-left: .25rem;
+    -webkit-transition: border-color .3s ease-out;
+    transition: border-color .3s ease-out;
+    border: 1px solid #fff;
+    text-align: center;
+    border-radius: 50%;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+.social-icons{
+    position: absolute;
+    right: 50px;
+    bottom: 1%; 
+}
+.social-icons ul li{
+    width: 50px;
+    height: 50px;
+    display: inline-block;
+}
+
+.social-icons ul li a{
+    display: block;
+    color: #fff;
+    text-align: center;
+    padding: 12px 17px;
+    font-size: 20px;
+    font-weight: 700;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: all 0.5s;
+}
+
+.social-icons ul li a:hover{
+    background: #c32865;
+    color: #fff;
+}
+.copy-right{
+    position: absolute;
+    left: 50px;
+    bottom: 4%;   
+}
+
+.copy-right p{
+    color: #fff;
+}
+.profile-info p{
+    font-size: 19px;
+    letter-spacing: 1px;
+    color: #fff;
+    line-height: 1.5;
+    letter-spacing: 3px;
+    text-align: justify;
+    padding-top: 50px;
+  padding-right: 50px;
+  padding-bottom: 50px;
+  padding-left: 200px;
+}
+.row {
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    padding-top: 100px;
+    margin-top: 5%;
+    display: flex;
+    justify-content: space-between;
+}
+.row h5{
+    font-size: 20px;
+    letter-spacing: 1px;
+    color: #fff;
+    line-height: 1.5;
+    letter-spacing: 3px;
+}
+.row p{
+    font-size: 15px;
+    letter-spacing: 1px;
+    color: #fff;
+    line-height: 1.5;
+    letter-spacing: 3px;
+}
+.education-col{
+    flex-basis: 31%;
+    background: #822a4a73;
+    border-radius: 10px;
+    margin-bottom: 5%;
+    padding: 20px 12px;
+    box-sizing: border-box;
+}
+.container{
+    max-width: 1200px;
+    margin: auto;
+    background: #822a4a73;
+    overflow: auto;
+}
+.gallery{
+    margin: 5px;
+    border: 1px solid #ccc;
+    float: left;
+    width: 390px;
+}
+.gallery img{
+    width: 100%;
+    height: auto;
+}
+.desc{
+    padding: 15px;
+    text-align: center;
+    font-family: roboto;
+    font-size: 20px;
+    color: #fff;
+}
+.header5{
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    background-image: url('blank.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.header5 .menu{
+    flex: 1;
+    text-align: center;
+}
+.header5 .menu ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 8px 12px;
+    position: relative;
+}
+.header5 .menu ul li a{
+    color: #fff;
+    text-decoration: none;
+    font-size: 20px;
+}
+.header5 .navbar{
+    width: 100%;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    padding-top: 20px;
+}
+.skills{
+    width:500px;
+    margin: 60px auto;
+    margin-top: 500px;
+    margin-left: 500px;
+    position: absolute;
+    color: #fff;
+    font-size: 25px;
+}
+.skills li{
+    margin: 20px 0;
+}
+.bar{
+    background: #822A4A;
+    display: block;
+    height: 10px;
+    border: 1px solid rgba (0,0,0,0.3);
+    border-radius: 3px;
+    overflow: hidden;
+    box-shadow: 0 0 10px #c32865;
+}
+.bar span{
+    height: 10px;
+    float: left;
+    background: #c32865;
+}
+.microsoft{
+    width: 80%;
+    animation: microsoft 2s;
+}
+.canva{
+    width: 95%;
+    animation: canva 2s;
+}
+.html{
+    width: 50%;
+    animation: html 2s;
+}
+.css{
+    width: 50%;
+    animation: css 2s;
+}
+@keyframes microsoft {
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 80%;
+    }
+}
+@keyframes canva {
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 95%;
+    }
+}
+@keyframes html{
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 40%;
+    }
+}
+@keyframes css{
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 40%;
+    }
+}
